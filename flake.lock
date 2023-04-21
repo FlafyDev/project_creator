@@ -27,22 +27,18 @@
       "inputs": {
         "android": "android",
         "flake-utils": "flake-utils_2",
-        "nixpkgs": [
-          "nixpkgs"
-        ]
+        "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1666736637,
-        "narHash": "sha256-gdCwSukE3p3wvfo40YGqrSPlSlbCOtslgG7NPcWhbcA=",
-        "owner": "flafydev",
-        "repo": "dart-flutter-nix",
-        "rev": "4c57bf974caf83ecb2ec3e5e1b93b3b8667dc159",
-        "type": "github"
+        "lastModified": 1680526878,
+        "narHash": "sha256-RjM0JGlmuje25B3rtaqRYgIG6OTWIgdcgpjJuSqqdRc=",
+        "path": "/nix/store/78q8f4l25qzphxf0p6x1xqjivmpcwi9l-source",
+        "rev": "a03ddbbce290f19f10572f92e889baf0bc68c393",
+        "type": "path"
       },
       "original": {
-        "owner": "flafydev",
-        "repo": "dart-flutter-nix",
-        "type": "github"
+        "id": "dart-flutter",
+        "type": "indirect"
       }
     },
     "devshell": {
@@ -119,24 +115,35 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1665943677,
-        "narHash": "sha256-ZREvT7CMGLxvktb8OvjfbitpQR2QzBPFJigm9JjB69A=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "a914b9460d467adc289870d414547b468429a96a",
-        "type": "github"
+        "lastModified": 1680758185,
+        "narHash": "sha256-sCVWwfnk7zEX8Z+OItiH+pcSklrlsLZ4TJTtnxAYREw=",
+        "path": "/nix/store/haqac3xk5vi8fn9gx156gjbm170351m7-source",
+        "rev": "0e19daa510e47a40e06257e205965f3b96ce0ac9",
+        "type": "path"
       },
       "original": {
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "type": "github"
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1680758185,
+        "narHash": "sha256-sCVWwfnk7zEX8Z+OItiH+pcSklrlsLZ4TJTtnxAYREw=",
+        "path": "/nix/store/haqac3xk5vi8fn9gx156gjbm170351m7-source",
+        "rev": "0e19daa510e47a40e06257e205965f3b96ce0ac9",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
       }
     },
     "root": {
       "inputs": {
         "dart-flutter": "dart-flutter",
         "flake-utils": "flake-utils_3",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs_2"
       }
     }
   },

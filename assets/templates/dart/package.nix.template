@@ -1,0 +1,18 @@
+{ lib
+, buildDartApp
+}:
+
+buildDartApp rec {
+  pname = "<<projectName>>";
+  version = "0.1.0";
+
+  src = ../.;
+
+  meta = with lib; {
+    description = "<<description>>";
+    homepage = "<<repoUrl>>";
+    maintainers = [];
+    license = licenses.<<license>>;
+    platforms = platforms.linux;
+  };
+}
